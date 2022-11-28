@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>Dojonary</h1>
+        <input class="search-bar" type="search" name="busquedamusica" placeholder="Search">
+        <button onclick="logOutButton(this)" class="login-button">Login</button>
+    </nav>
+
+    <div class="main-flex-container">
+    <main>
+        <div class="ninja-1-container">
+            <div class="ninja-1-body">
+                    <h2>ninja</h2>
+                    <i>noun</i>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button onclick="alert('A ninja was liked')" class="like-button">
+                        13 likes
+                    </button>
+                <p class="description">A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">Ninjutsu</a></p>
+            </div>
+        </div>
+
+        <div class="ninja-1-container">
+            <div class="ninja-1-body">
+                <h2>ninja</h2>
+                <i>noun</i>
+                <p>Plural: <i>ninjas</i></p>
+                <button onclick="alert('A ninja was liked')" class="like-button">
+                    37 likes
+                </button>
+                <p class="description">A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="secondary-container">
+        <aside class="dojonary-container">
+            <article class="dojonary-body">
+                <h2>Dojonary is defined by <b>YOU</b></h2>
+                <button onclick ="hideDefinitionButton(this)"class="dojonary-button">Add Definition</button>
+            </article>
+
+        </aside>
+    </div>
+</div>
+
+</body>
+</html>
